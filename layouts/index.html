@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+
+</head>
+<body>
+
+<div id="header-wrapper">
+	{{ partial "header.html" . }}
+
+	{{ partial "banner.html" . }}
+
+</div>
+
+<div id="wrapper">
+	{{ if .Site.Params.services.enable }}
+	{{ partial "services.html" . }}
+	{{ end }}
+</div>
+<div id="welcome">
+	{{ if .Site.Params.welcome.enable }}
+	{{ partial "welcome.html" . }}
+	{{ end }}
+</div>
+	{{ if .Site.Params.footer.enable }}
+	{{ partial "footer.html" .}}
+	{{ end }}
+</body>
+</html>
