@@ -1,9 +1,11 @@
   <div id="banner" class="container">
     <div class="title">
-      <h2>{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</h2>
-      <span class="byline">{{ with .Site.Params.hero.byline }}{{ . | markdownify }}{{ end }}</span>
+      <h2>{{ with .Site.Params.banner.title }}{{ . | markdownify }}{{ end }}</h2>
+      <span class="byline">{{ with .Site.Params.banner.byline }}{{ . | markdownify }}{{ end }}</span>
     </div>
+  {{ if .Site.Params.actions.enable }}
     <ul class="actions">
-      <li><a href="#" class="button">Reclaim!</a></li>
+      <li><a href="#" class="button">{{ with .Site.Params.actions.register }}{{ . | markdownify }}{{ end }}</a></li>
     </ul>
+  {{ end }}
   </div>

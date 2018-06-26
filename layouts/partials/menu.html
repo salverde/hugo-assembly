@@ -1,8 +1,16 @@
     <div id="menu">
       <ul>
-        <li class="active"><a href="#" accesskey="1" title="">Welcome</a></li>
-        <li><a href="#" accesskey="2" title="">What We Donec</a></li>
-        <li><a href="#" accesskey="3" title="">About Us</a></li>
-        <li><a href="#" accesskey="5" title="">Contact Us</a></li>
+         {{ if .Site.Params.home.enable }}
+          <li class="active"><a href="#" accesskey="1" title="">{{ with .Site.Params.nav.home }}{{ . | markdownify }}{{ end }}</a></li>
+        {{ end }}
+         {{ if .Site.Params.services.enable }}
+          <li><a href="#" accesskey="2" title="">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a></li>
+        {{ end }}
+         {{ if .Site.Params.team.enable }}
+          <li><a href="#" accesskey="3" title="">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a></li>
+        {{ end }}
+         {{ if .Site.Params.contact.enable }}
+          <li><a href="#" accesskey="4" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a></li>
+        {{ end }}
       </ul>
     </div>
