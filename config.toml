@@ -22,7 +22,7 @@ title = "My Hugo Config"
 [params.nav]
   home = "Welcome"
   services = "What we Do"
-  about = "About Us"
+  team = "About Us"
   contact = "Contact Us"
 
 # Services section
@@ -41,6 +41,7 @@ title = "My Hugo Config"
   #   [[params.services.images.list]]
   #     img = "images/img_1.jpg"
 
+  # 4 column
   [[params.services.item]]
     weight = 1
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos"
@@ -56,56 +57,61 @@ title = "My Hugo Config"
     description = "Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!"
     button_item_info = "My Bounty"
 
+  [[params.services.item]]
+    weight = 4
+    description = "Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!"
+    button_item_info = "My Bounty"
+
 # Team section
 [params.team]
   enable = true
-  title = "About the Team"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   title = "About the Team"
+#   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    linkedin = "#"
+#   [[params.team.item]]
+#     name = "Jean Doe"
+#     position = "Chief legend"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#     img = "images/person1.jpg"
+#     facebook = "#"
+#     twitter = "#"
+#     dribbble = "#"
+#     instagram = "#"
+#     github = "#"
+#     linkedin = "#"
 
-  [[params.team.item]]
-    name = "Alice Doe"
-    position = "Chief overlord"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person2.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
+#   [[params.team.item]]
+#     name = "Alice Doe"
+#     position = "Chief overlord"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#     img = "images/person2.jpg"
+#     facebook = "#"
+#     twitter = "#"
+#     dribbble = "#"
+#     instagram = "#"
+#     github = "#"
 
-  [[params.team.item]]
-    name = "John Doe"
-    position = "Chief haranguer"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person3.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
+#   [[params.team.item]]
+#     name = "John Doe"
+#     position = "Chief haranguer"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#     img = "images/person3.jpg"
+#     facebook = "#"
+#     twitter = "#"
+#     dribbble = "#"
+#     instagram = "#"
+#     github = "#"
 
 # Contact section
 [params.contact]
   enable = true
-  title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  name_placeholder = "Your name"
-  email_placeholder = "Your email"
-  email_disclaimer = "We'll never share your email with anyone else."
-  message_placeholder = "Please enter a message."
-  button_text = "Submit"
+#   title = "Get In Touch"
+#   message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   name_placeholder = "Your name"
+#   email_placeholder = "Your email"
+#   email_disclaimer = "We'll never share your email with anyone else."
+#   message_placeholder = "Please enter a message."
+#   button_text = "Submit"
 
 # Footer section
 [params.footer]

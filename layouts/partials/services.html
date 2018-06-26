@@ -1,15 +1,15 @@
   <div id="three-column" class="container">
     {{ with .Site.Params.services }}
-    <div class="title">
-      <h2>{{ with .title }}</h2>
-      <span class="byline">{{ with .subtitle }}</span>
-    </div>
-    {{ range .item }}
-    <div class="box{{ .weight }}">
-      <p>{{ .description | markdownify }}</p>
-      <a href="#" class="button button-alt">{{ .button_item_info }}</a>
-    </div>
-    {{ end }}
+      <div class="title">
+        <h2>{{ .title }}</h2>
+        <span class="byline">{{ .subtitle }}</span>
+      </div>
+      {{ range .item }}
+      <div class="box{{ .weight }}">
+        <p>{{ .description | markdownify }}</p>
+        <a href="#" class="button button-alt">{{ .button_item_info }}</a>
+      </div>
+      {{ end }}
 
     {{ end }}
   </div>
