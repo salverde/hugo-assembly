@@ -1,22 +1,22 @@
 # Main config file for icon theme.
 theme = "hugo-assembly"
-baseURL = "https://www.example.com/"
+baseURL = "https://mobiclaim.co"
 languageCode = "en-US"
-title = "My Hugo Config"
+title = "MobiClaim!"
 
 # Metadata
 [params]
   author = "Salomon Valverde"
-  description = "Cool description"
+  description = "The fastest most convenient way to reclaim your lost device."
 
 # banner section (from here on is for assembly theme)
 [params.banner]
-  title = "MobiClaim!"
-  byline = "Reclaim your devices faster and safer with us"
+  title = "Reclaim your Mobile Device"
+  byline = "We are proactively trying to keep lost and found a thing of the past!"
 
 [params.actions] # CTAs
   enable = true
-  register = "Recover your Phone!"
+  register = "Dropoff my Phone"
 
 # Navigation section
 [params.nav]
@@ -44,23 +44,23 @@ title = "My Hugo Config"
   # 4 column
   [[params.services.item]]
     weight = 1
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     button_item_info = "Learn more"
 
   [[params.services.item]]
     weight = 2
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum."
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     button_item_info = "Locate Phone"
 
   [[params.services.item]]
     weight = 3
-    description = "Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!"
-    button_item_info = "My Bounty"
+    description = "Possimus id dicta consequuntur veritatis, reiciendis at sint distinctio eligendi!"
+    button_item_info = "Delivery"
 
   [[params.services.item]]
     weight = 4
-    description = "Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!"
-    button_item_info = "My Bounty"
+    description = "Possimus id dicta consequuntur veritatis, voluptate sint distinctio eligendi!"
+    button_item_info = "Recover"
 
 # Team section
 [params.team]
