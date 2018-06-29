@@ -1,106 +1,61 @@
 # Main config file for icon theme.
 theme = "hugo-assembly"
-baseURL = "https://mobiclaim.co"
+baseURL = "https://example.co"
 languageCode = "en-US"
-title = "MobiClaim!"
+title = "Assembly"
 
 # Metadata
 [params]
-  author = "Salomon Valverde"
-  description = "The fastest most convenient way to reclaim your lost device."
+  author = "A Human Name"
+  description = "The description"
+
+# This is <strong>Assembly</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :)
 
 # banner section (from here on is for assembly theme)
 [params.banner]
-  title = "Reclaim your Mobile Device"
-  byline = "We are proactively trying to keep lost and found a thing of the past!"
+  title = "This is Assembly Template"
+  byline = "a free, CSS template ported over to a Hugo theme."
 
 [params.actions] # CTAs
   enable = true
-  register = "Dropoff my Phone"
+  register = "CTA Now!"
 
 # Navigation section
 [params.nav]
   home = "Welcome"
-  services = "What we Do"
+  services = "Services"
   team = "About Us"
   contact = "Contact Us"
 
 # Services section
 [params.services]
   enable = true
-  title = "Header title for services"
-  subtitle = "subtitle for services"
-
-  # [params.services.images]
-  #   enable = true
-
-  #   [[params.services.images.list]]
-  #     img = "images/img_3.jpg"
-  #   [[params.services.images.list]]
-  #     img = "images/img_2.jpg"
-  #   [[params.services.images.list]]
-  #     img = "images/img_1.jpg"
-
-  # 4 column
-  [[params.services.item]]
-    weight = 1
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    button_item_info = "Learn more"
+  title = "Services"
+  subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 
   [[params.services.item]]
-    weight = 2
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    button_item_info = "Locate Phone"
+    weight = "A"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Safer"
 
   [[params.services.item]]
-    weight = 3
-    description = "Possimus id dicta consequuntur veritatis, reiciendis at sint distinctio eligendi!"
-    button_item_info = "Delivery"
+    weight = "B"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Faster"
 
   [[params.services.item]]
-    weight = 4
-    description = "Possimus id dicta consequuntur veritatis, voluptate sint distinctio eligendi!"
-    button_item_info = "Recover"
+    weight = "C"
+    description = "Possimus id dicta consequuntur veritatis, reiciendis at sint distinctio eligend Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Smarter"
 
-# Team section
-[params.team]
+# Welcome section
+[params.welcome]
   enable = true
-#   title = "About the Team"
-#   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Welcome Assembly"
+  subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 
-#   [[params.team.item]]
-#     name = "Jean Doe"
-#     position = "Chief legend"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#     img = "images/person1.jpg"
-#     facebook = "#"
-#     twitter = "#"
-#     dribbble = "#"
-#     instagram = "#"
-#     github = "#"
-#     linkedin = "#"
-
-#   [[params.team.item]]
-#     name = "Alice Doe"
-#     position = "Chief overlord"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#     img = "images/person2.jpg"
-#     facebook = "#"
-#     twitter = "#"
-#     dribbble = "#"
-#     instagram = "#"
-#     github = "#"
-
-#   [[params.team.item]]
-#     name = "John Doe"
-#     position = "Chief haranguer"
-#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#     img = "images/person3.jpg"
-#     facebook = "#"
-#     twitter = "#"
-#     dribbble = "#"
-#     instagram = "#"
-#     github = "#"
+  description = "This is <strong>Assembly</strong>, a free, fully standards-compliant CSS template designed by <a href=\"http://templated.co\" rel=\"nofollow\">TEMPLATED</a>. The photos in this template are from <a href=\"http://fotogrph.com/\"> Fotogrph</a>. This free template is released under the <a href=\"http://templated.co/license\">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :)"
+  button_text = "Call Now"
 
 # Contact section
 [params.contact]
@@ -116,8 +71,8 @@ title = "MobiClaim!"
 # Footer section
 [params.footer]
   enable = true
-  copy = "&copy; MobiClaim! All rights reserved. | Photos by <a href=\"http://fotogrph.com/\">Fotogrph</a> | Design by <a href=\"http://templated.co\" rel=\"nofollow\">TEMPLATED</a>."
-  twitter = "#"
-  facebook = "#"
-  instagram = "#"
+  copy = "&copy; MobiClaim! All rights reserved."
+  twitter = "mobiclaim"
+  facebook = "mobiclaim"
+  instagram = "mobiclaim"
 

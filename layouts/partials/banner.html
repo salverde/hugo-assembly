@@ -5,7 +5,7 @@
     </div>
   {{ if .Site.Params.actions.enable }}
     <ul class="actions">
-      <li><a href="#" class="button">{{ with .Site.Params.actions.register }}{{ . | markdownify }}{{ end }}</a></li>
+      <li><a href="#" class="button">{{  Site.Params.actions.register }}</a></li>
     </ul>
   {{ end }}
   </div>

@@ -1,0 +1,12 @@
+  <div class="container">
+    {{ with .Site.Params.welcome }}
+    <div class="title">
+      <h2>{{ .title }}</h2>
+      <span class="byline">{{ .subtitle }}</span>
+    </div>
+    <p>{{ .description }}</p>
+    <ul class="actions">
+      <li><a href="#" class="button">{{ .button_text }}</a></li>
+    </ul>
+    {{end}}
+  </div>
