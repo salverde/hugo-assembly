@@ -12,10 +12,10 @@
 # Released   : 20140330
 
 name = "Hugo Assembly"
-license = "MIT"
+license = "CC"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
 description = ""
-homepage = "http://mobiclaim.xyz"
+homepage = "http://example.co"
 tags = []
 features = []
 min_version = "0.41"
