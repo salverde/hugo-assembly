@@ -13,11 +13,11 @@
 
 name = "Hugo Assembly"
 license = "CC"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+licenselink = "https://github.com/salomoko/hugo-assembly/blob/master/LICENSE"
+description = "Assembly: A nice modern business-style design."
 homepage = "http://example.co"
-tags = []
-features = []
+tags = ["modern", "business", "simple"]
+features = ["services","about-us","contact"]
 min_version = "0.41"
 
 [author]
