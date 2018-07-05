@@ -3,9 +3,9 @@
       <h2>{{ with .Site.Params.banner.title }}{{ . | markdownify }}{{ end }}</h2>
       <span class="byline">{{ with .Site.Params.banner.byline }}{{ . | markdownify }}{{ end }}</span>
     </div>
-  {{ if .Site.Params.actions.enable }}
+  {{ if .Site.Params.banner.actions.enable }}
     <ul class="actions">
-      <li><a href="#" class="button">{{  Site.Params.actions.register }}</a></li>
+      <li><a href="#" class="button">{{  Site.Params.banner.actions.register }}</a></li>
     </ul>
   {{ end }}
   </div>
