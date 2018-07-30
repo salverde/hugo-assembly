@@ -20,9 +20,9 @@ title = "Assembly"
 
 # Navigation section
 [params.nav]
-  home = "Welcome"
+  home = "Home"
   services = "Services"
-  team = "About Us"
+  welcome = "Welcome"
   contact = "Contact Us"
 
 # Services section

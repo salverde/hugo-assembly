@@ -7,7 +7,7 @@
       <li><a href="#services" accesskey="2" title="">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
      {{ if .Site.Params.welcome.enable }}
-      <li><a href="#welcome" accesskey="3" title="">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a></li>
+      <li><a href="#welcome" accesskey="3" title="">{{ with .Site.Params.nav.welcome }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
      {{ if .Site.Params.contact.enable }}
       <li><a href="#contact" accesskey="4" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a></li>
