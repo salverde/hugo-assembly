@@ -10,12 +10,10 @@ Follow the themes guide on the [Hugo website](https://gohugo.io/themes/installin
 
 ```sh
 $ cd themes
-$ git clone https://github.com/salomoko/hugo-assembly.git
+$ git clone https://github.com/salsysd/hugo-assembly.git
 ```
 
 ## Getting started
-
-Copy `exampleSite/config.toml` into the root of your website folder, and edit it to your hearts content!
 
 Add `theme = "hugo-assembly"` to this config, or when serving, use `hugo server -t hugo-assembly`.
 
@@ -26,4 +24,6 @@ Credit for this theme goes fully to [http://templated.co](http://templated.co), 
 
 ## Changelog
 
-A changelog for the initial port by @salomoko is [here](changelog.md); if you fork this theme and make changes, please list them.
+- The initial port by @salsysd is [here](changelog.md); if you fork this theme and make changes, please list them in the changelog.
+
+- fixed minor items for the hugo theme build script

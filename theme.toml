@@ -12,12 +12,11 @@
 # Released   : 20140330
 
 name = "Hugo Assembly"
-license = "CC"
+license = "MIT"
 licenselink = "https://github.com/salomoko/hugo-assembly/blob/master/LICENSE"
 description = "Assembly: A nice modern business-style design."
-homepage = "http://example.co"
-tags = ["modern", "business", "simple"]
-features = ["services","about-us","contact"]
+tags = ["modern", "company", "simple","clean"]
+features = ["services","about-us","contact", "welcome"]
 min_version = "0.41"
 
 [author]
