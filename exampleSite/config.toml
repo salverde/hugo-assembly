@@ -1,0 +1,75 @@
+# Main config file for icon theme.
+theme = "hugo-assembly"
+baseURL = "https://example.co"
+languageCode = "en-US"
+title = "Assembly"
+
+# Metadata
+[params]
+  author = "A Human Name"
+  description = "The description"
+
+# banner section (from here on is for assembly theme)
+[params.banner]
+  title = "This is Assembly Template"
+  byline = "A free, CSS template ported over to a Hugo Theme."
+
+[params.actions] # CTAs
+  enable = true
+  register = "CTA Now!"
+
+# Navigation section
+[params.nav]
+  home = "Home"
+  services = "Services"
+  welcome = "Welcome"
+  contact = "Contact Us"
+
+# Services section
+[params.services]
+  enable = true
+  title = "Services"
+  subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
+  [[params.services.item]]
+    weight = "A"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Safer"
+
+  [[params.services.item]]
+    weight = "B"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Faster"
+
+  [[params.services.item]]
+    weight = "C"
+    description = "Possimus id dicta consequuntur veritatis, reiciendis at sint distinctio eligend Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    button_item_info = "Smarter"
+
+# Welcome section
+[params.welcome]
+  enable = true
+  title = "Welcome Assembly"
+  subtitle = "Computing the conversion of instructions in low-level code to machine code by an assembler."
+  description = "This is <strong>Assembly</strong>, a free, fully standards-compliant CSS template designed by <a href=\"http://templated.co\" rel=\"nofollow\">TEMPLATED</a>. The photos in this template are from <a href=\"http://fotogrph.com/\"> Fotogrph</a>. This free template is released under the <a href=\"http://templated.co/license\">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :)"
+  button_text = "Call Now"
+
+# Contact section
+[params.contact]
+  enable = true
+#   title = "Get In Touch"
+#   message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   name_placeholder = "Your name"
+#   email_placeholder = "Your email"
+#   email_disclaimer = "We'll never share your email with anyone else."
+#   message_placeholder = "Please enter a message."
+#   button_text = "Submit"
+
+# Footer section
+[params.footer]
+  enable = true
+  copy = "&copy; Assembly Inc | All rights reserved."
+  twitter = ""
+  facebook = ""
+  instagram = ""
+
