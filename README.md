@@ -15,7 +15,10 @@ $ git clone https://github.com/salsysd/hugo-assembly.git
 
 ## Getting started
 
-Add `theme = "hugo-assembly"` to this config, or when serving, use `hugo server -t hugo-assembly`.
+### The config file
+Take a look inside the exampleSite folder of this theme. You’ll find a file called config.toml. To use it, copy the config.toml in the root folder of your Hugo site. Feel free to change the strings in this theme.
+
+Add `theme = "hugo-assembly"` to this config or when starting service, use `hugo server -t hugo-assembly`.
 
 
 ## Credits
