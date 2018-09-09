@@ -6,7 +6,7 @@ This theme is a Hugo port of the assembly theme by [http://templated.co](http://
 
 ---
 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/salsysd/hugo-assembly.svg?columns=Inbox,In%20Progress,Done)](https://waffle.io/salsysd/hugo-assembly)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/salsysd/hugo-assembly.svg?columns=Todo,In%20Progress,Done)](https://waffle.io/salsysd/hugo-assembly)
 
 ## Installation
 
