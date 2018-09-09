@@ -8,13 +8,13 @@
 # Name       : Assembly
 # Description: A two-column, fixed-width design with dark color scheme.
 # Version    : 1.1
-# Released   : 2018-08-20
+# Released   : 2018-09-11
 
 name = "Hugo Assembly"
 license = "MIT"
 licenselink = "https://github.com/salsysd/hugo-assembly/blob/master/LICENSE"
 description = "Assembly: A nice modern business-style design."
-tags = ["modern", "company", "simple","clean"]
+tags = ["modern","company","simple","clean"]
 features = ["services","about-us","contact", "welcome"]
 min_version = "0.41"
 

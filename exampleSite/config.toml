@@ -1,4 +1,3 @@
-# Main config file for icon theme.
 theme = "hugo-assembly"
 baseURL = "https://example.co"
 languageCode = "en-US"
