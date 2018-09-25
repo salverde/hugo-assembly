@@ -1,12 +1,13 @@
 <div id="services">
-    <div id="three-column" class="container">
     {{ with .Site.Params.services }}
       <div class="title">
         <h2>{{ .title }}</h2>
         <span class="byline">{{ .subtitle }}</span>
       </div>
+
+    <div id="three-column" class="container flex-container">
       {{ range .item }}
-      <div class="box{{ .weight }}">
+      <div class="boxes">
         <p>{{ .description | markdownify }}</p>
         <a href="#" class="button button-alt">{{ .button_item_info }}</a>
       </div>
