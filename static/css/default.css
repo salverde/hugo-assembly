@@ -290,7 +290,7 @@
 	#header-wrapper
 	{
 		position: relative;
-		padding: 5em 0em 7em 0em;
+		padding: 1em 0em 7em 0em;
 		background: #111111 url(../images/header-bg.jpg) no-repeat center;
 		background-size: cover;
 	}
@@ -331,8 +331,13 @@
 
 	#menu
 	{
-		position: absolute;
-		right: 0;
+		position: fixed;
+		width: 100%;
+		padding: 0.3em 0;
+		z-index: 99999;
+		text-align: right;
+		background: #3333;
+		transition: top 0.3s;
 	}
 	
 	#menu ul
