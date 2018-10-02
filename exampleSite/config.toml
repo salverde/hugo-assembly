@@ -67,7 +67,7 @@ title = "Assembly"
 # Footer section
 [params.footer]
   enable = true
-  copy = "&copy; Assembly Inc | All rights reserved."
+  copy = "2018 &copy; Assembly Inc. | All rights reserved"
   twitter = ""
   facebook = ""
   instagram = ""
