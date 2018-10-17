@@ -55,7 +55,6 @@
 	{
 		overflow: hidden;
 		margin: 0em auto;
-		width: 1200px;
 	}
 	
 /*********************************************************************************/
@@ -220,25 +219,18 @@
 /* 3-column                                                                      */
 /*********************************************************************************/
 
-	.boxA,
-	.boxB,
-	.boxC
+	.boxes
 	{
-		width: 384px;
+		margin: 2em 1em;
+		max-width: 400px;
 	}
 
-	.boxA,
-	.boxB
-	{
-		float: left;
-		margin-right: 20px;
+	.flex-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
-	
-	.boxC
-	{
-		float: right;
-	}
-
 /*********************************************************************************/
 /* 2-column                                                                      */
 /*********************************************************************************/
@@ -273,7 +265,7 @@
 	{
 		font-size: 2.7em;
 	}
-	
+
 	.title .byline
 	{
 		font-size: 1.3em;
@@ -298,7 +290,7 @@
 	#header-wrapper
 	{
 		position: relative;
-		padding: 5em 0em 7em 0em;
+		padding: 1em 0em 7em 0em;
 		background: #111111 url(../images/header-bg.jpg) no-repeat center;
 		background-size: cover;
 	}
@@ -306,7 +298,8 @@
 	#header
 	{
 		position: relative;
-		padding: 5em 0em;
+		padding: 6em 0em;
+		top: 2em;
 	}
 
 /*********************************************************************************/
@@ -317,13 +310,12 @@
 	{
 		position: absolute;
 		top: 3.6em;
-		left: 0;
+		left: 6em;
 	}
 	
-	#logo h1
+	#logo img
 	{
-		font-size: 2.6em;
-		color: #79C255;
+        border-radius: 5em;
 	}
 	
 	#logo a
@@ -338,9 +330,13 @@
 
 	#menu
 	{
-		position: absolute;
-		top: 4.5em;
-		right: 0;
+		position: fixed;
+		width: 100%;
+		padding: 0.3em 0;
+		z-index: 99999;
+		text-align: right;
+		background: #3333;
+		transition: top 0.3s;
 	}
 	
 	#menu ul
@@ -398,6 +394,16 @@
 	#banner .title .byline
 	{
 		font-size: 2em;
+	}
+	
+	@media screen and (max-width: 600px) {
+		.title h2 {
+			font-size: 2.8em !important;
+		}
+
+		.title .byline {
+			font-size: 1.4em !important;
+		}
 	}
 	
 	#banner .button
@@ -487,8 +493,7 @@
 	
 	#welcome .container
 	{
-		width: 1000px;
-		padding: 0px 100px;
+		padding: 0px 16em;
 		color: rgba(255,255,255,0.8);
 	}
 	
@@ -503,15 +508,38 @@
 		color: #2651a8;
 	}
 
+	@media screen and (max-width: 600px) {
+		#welcome .container {
+			padding: 0 2em;
+		}
+
+		#welcome .title h2 {
+			font-size: 2em !important;
+		}
+	}
 
 /*********************************************************************************/
 /* Extra                                                                         */
 /*********************************************************************************/
+	#services {
+		margin: 0 16em;
+		color: rgba(0,0,0,0.6);
+		text-align: center;
+	}
+
+	@media screen and (max-width: 600px) {
+		#services {
+			margin: 0 1em;
+		}
+	}
+
+	#services .byline {
+		color: rgba(0,0,0,0.6);
+	}
 
 	#three-column
 	{
 		text-align: center;
-		color: rgba(0,0,0,0.6);
 	}
 
 	#three-column .fa
